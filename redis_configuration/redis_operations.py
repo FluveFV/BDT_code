@@ -5,6 +5,10 @@ from datetime import datetime
 class RedIngestion:
 
     def __init__(self, host="localhost", port=6379):     #check if your port is the same; 6379 is by default.
+        '''
+        Instantiates a Redis connection and provides methods
+        to store data into Redis and perform a lookup operation
+        '''
         self.rj = Client(host=host, port=port, decode_responses=True)
 
     def store_data(self, data: object) -> object:
