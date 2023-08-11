@@ -5,6 +5,11 @@ from BDT_code.spark_data_model.spark_storage import Spark_session
 
 class DataPreparation:
     def __init__(self):
+        '''
+        Wraps methods from the classes defined to fetch data from sources and
+        elaborate them in Spark. It also has a method that converts the Spark
+        dataframe to a dictionary that will be stored into Redis.
+        '''
         self.connector_path = filepath
         self.diz = None
         self.df = None
