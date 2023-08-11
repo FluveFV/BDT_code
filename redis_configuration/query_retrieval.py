@@ -16,6 +16,13 @@ from datetime import datetime
 class Lookup:
     def __init__(self):
 
+        '''
+        Wraps some methods from the classes defined in the scripts
+        in the ‘redis_configuration’ folder in order to let a user
+        finally perform a lookup operation. This final class is the
+        only one that is actually called by running the ‘_main_.py’ script
+        '''
+
         self.data_prep = DataPreparation()
         self.data_prep.prepare_data()
 
