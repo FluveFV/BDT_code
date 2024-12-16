@@ -1,5 +1,5 @@
 # BDT_code
-Code and documentation for Big Data Technologies course project work, in University of Trento. 
+Code and documentation for Big Data Technologies course project work, in University of Trento. The report can be found [here](https://github.com/FluveFV/BDT_code/blob/main/BDT_report.pdf)
 Make sure Redis and its most common modules are properly installed. 
 Please check the README file into the 'redis_setup' folder. 
 
